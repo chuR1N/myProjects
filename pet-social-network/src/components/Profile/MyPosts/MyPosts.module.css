@@ -1,0 +1,13 @@
+.postsBlocks textarea {
+    width: 40%;
+    border-radius: 5px;
+    background: aliceblue;
+}
+
+.postsBlocks button {
+    border-radius: 5px;
+}
+
+.postsBlocks h3 {
+    margin-bottom: 5px;
+}

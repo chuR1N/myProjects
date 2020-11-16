@@ -1,0 +1,26 @@
+.ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.likes {
+    display: flex;
+    padding-left: 40px;
+
+}
+.likes span {
+    color: #002aff;
+    font-size: 0.7rem;
+    margin-top: 3px;
+}
+
+.likes div {
+    margin-right: 1px;
+}
+
+.like {
+    width: 15px;
+    height: 15px;
+    border-radius: 30%;
+    justify-self: center;
+}
