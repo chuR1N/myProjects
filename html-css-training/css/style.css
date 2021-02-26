@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.gallery {
+    width: 1000px;
+    height: 580px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.photo {
+    position: relative;
+    height: 100%;
+}
+
+.photo img {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    transition: opacity 1s;
+}
+
+.photo img.shown {
+    opacity: 1;
+    box-shadow: 0 14px 25px rgba(255, 255, 255, 0.116),
+        0 12px 20px rgba(255, 255, 255, 0.089);
+}
+
+.tabs {
+    text-align: center;
+}
