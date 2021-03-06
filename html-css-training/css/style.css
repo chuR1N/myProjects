@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .gallery {
@@ -19,15 +19,19 @@ body {
     position: absolute;
     opacity: 0;
     left: 0;
-    transition: opacity 1s;
+    transition: opacity 2s;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 0.541);
 }
 
 .photo img.shown {
     opacity: 1;
-    box-shadow: 0 14px 25px rgba(255, 255, 255, 0.116),
-        0 12px 20px rgba(255, 255, 255, 0.089);
 }
 
 .tabs {
     text-align: center;
+}
+
+audio {
+    position: fixed;
 }
